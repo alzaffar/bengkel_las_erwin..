@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokasi & Kontak — Bengkel Las Erwin</title>
+    <meta name="description" content="Lokasi dan kontak Bengkel Las Erwin di Jl. A.R. Hakim 2, Binjai Utara. Hubungi kami via WhatsApp atau isi formulir untuk konsultasi.">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hero hero-sm">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="home.html">Bengkel Las Erwin</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+                        <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="lokasi.html">Lokasi</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="content">
+            <span class="eyebrow">Lokasi & Kontak</span>
+            <h1>Datang Langsung<br>atau Hubungi Kami</h1>
+        </div>
+
+    </div>
+
+    <section id="lokasi" class="kontak">
+        <div class="container">
+
+            <div class="section-title">
+                <span>LOKASI KAMI</span>
+                <div class="garis-orange"></div>
+            </div>
+
+            <h2 class="judul-kontak">Lokasi Kami</h2>
+
+            <div class="lokasi-card">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d351.1375718677413!2d98.50479812504592!3d3.6159765639698196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1780308945466!5m2!1sid!2sid"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Lokasi Bengkel Las Erwin">
+                </iframe>
+
+                <div class="lokasi-info">
+                    <h4>Bengkel Las Erwin</h4>
+                    <p>
+                        Jl. A.R. Hakim 2, Kelurahan Nangka, Kec. Binjai Utara,
+                        Sumatera Utara 20742
+                    </p>
+
+                    <ul>
+                        <li><i class="bi bi-telephone"></i> +62 852-9764-4993</li>
+                        <li><i class="bi bi-envelope"></i> erwinbengkellas12@gmail.com</li>
+                        <li><i class="bi bi-clock"></i> Senin – Sabtu, 08.00 – 17.00 WIB</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- FORM KONTAK -->
+            <div class="kontak-form-wrap">
+
+                <div class="section-title">
+                    <span>HUBUNGI KAMI</span>
+                    <div class="garis-orange"></div>
+                </div>
+
+                <h2 class="judul-kontak" style="margin-bottom:1rem;">Isi Form, Kami Balas</h2>
+                <p class="form-note">
+                    Ceritakan kebutuhan Anda, nanti pesan akan langsung terkirim ke
+                    WhatsApp kami dan akan kami balas secepatnya.
+                </p>
+
+                <form id="form-kontak" class="form-industri row g-3" novalidate>
+
+                    <div class="col-md-6">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Anda" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="telepon" class="form-label">No. Telepon / WhatsApp</label>
+                        <input type="tel" class="form-control" id="telepon" name="telepon" placeholder="08xx-xxxx-xxxx" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="layanan" class="form-label">Jenis Layanan</label>
+                        <select class="form-select" id="layanan" name="layanan" required>
+                            <option value="" selected disabled>Pilih layanan</option>
+                            <option value="Kanopi">Kanopi</option>
+                            <option value="Pagar / Pintu Pagar">Pagar / Pintu Pagar</option>
+                            <option value="Teralis">Teralis</option>
+                            <option value="Rak Besi">Rak Besi</option>
+                            <option value="Pintu Besi">Pintu Besi</option>
+                            <option value="Pekerjaan Custom">Pekerjaan Custom / lainnya</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="lokasi-proyek" class="form-label">Lokasi Pekerjaan</label>
+                        <input type="text" class="form-control" id="lokasi-proyek" name="lokasi_proyek" placeholder="Contoh: Binjai Timur">
+                        <div class="form-hint">Opsional, membantu kami perkirakan biaya kunjungan.</div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="pesan" class="form-label">Detail Kebutuhan</label>
+                        <textarea class="form-control" id="pesan" name="pesan" rows="4" placeholder="Contoh: mau bikin kanopi carport ukuran 3x5 meter, rencana pasang bulan depan" required></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn-orange">
+                            <i class="fab fa-whatsapp"></i> Kirim ke WhatsApp
+                        </button>
+                        <div id="form-status" class="form-status" role="status"></div>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+
+            <div class="footer-box">
+                <h3>Bengkel Las Erwin</h3>
+                <p>Spesialis Las untuk Kebutuhan Rumah & Proyek. Melayani Binjai dan sekitarnya.</p>
+                <div class="social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="lokasi.html">Lokasi</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h4>Layanan</h4>
+                <ul>
+                    <li>Kanopi</li>
+                    <li>Pagar & Pintu Pagar</li>
+                    <li>Teralis Jendela</li>
+                    <li>Pintu & Rak Besi</li>
+                    <li>Pekerjaan Custom</li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h4>Kontak</h4>
+                <p>Jl. A.R. Hakim 2, Kel. Nangka, Binjai Utara</p>
+                <p>+62 852-9764-4993</p>
+                <p>erwinbengkellas12@gmail.com</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>&copy; 2025 Bengkel Las Erwin. Seluruh hak cipta dilindungi.</span>
+            <span>Dibuat dengan &#9829; di Binjai</span>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6285297644993" class="wa-float" target="_blank" aria-label="Chat WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <button id="backTop" class="back-top">
+    <i class="bi bi-arrow-up"></i>
+</button>
+</body>
+</html>
